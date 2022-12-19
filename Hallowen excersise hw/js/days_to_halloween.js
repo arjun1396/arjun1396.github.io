@@ -7,7 +7,7 @@ if ((navigator.appName == "Microsoft Internet Explorer") && (year < 2000))
 year="19" + year;
 if (navigator.appName == "Netscape")
 year=1900 + year;
-var date = new Date("October 31, " + month);
+var date = new Date("October 30, " + month);
 var diff = date.getTime() - today.getTime();
 var days = Math.floor(diff / (1000 * 60 * 60 * 24));
 
