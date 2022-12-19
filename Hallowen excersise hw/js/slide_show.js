@@ -5,7 +5,7 @@ $(document).ready(function() {
 	
 	// the function for running the slide show	
 	var runSlideShow = function() {   
-        $("#caption").fadeOut(3000);
+        $("#caption").fadeOut(2000);
         $("#slide").fadeOut(3000,
         	function () {
        	     	if (nextSlide.next().length == 0) {
